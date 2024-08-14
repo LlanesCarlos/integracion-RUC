@@ -12,7 +12,6 @@ Requisitos
 
 Instalar las dependencias necesarias:
 
-bash
 
     pip install cx_Oracle tu_ruc_python_client
 
@@ -20,7 +19,6 @@ Configuración
 
 Antes de ejecutar el script, actualiza los valores de conexión a la base de datos en la sección config_db del archivo integracion_ruc.py:
 
-python
 
 config_db = {
     'user': 'usuario',           # Usuario de la base de datos
@@ -35,7 +33,6 @@ Uso
 
 Ejecuta el script para iniciar la extracción de información de contribuyentes y su inserción en la base de datos Oracle:
 
-bash
 
 python inforuc_test3.py
 
