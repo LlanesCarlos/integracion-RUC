@@ -39,10 +39,10 @@ Ejecuta el script para iniciar la extracción de información de contribuyentes 
 
 Funcionamiento
 
-    Conexión a Oracle: El script se conecta a una base de datos Oracle utilizando cx_Oracle.
-    Obtención de Datos: Se utilizan números consecutivos para buscar información de contribuyentes a través de la API externa.
-    Inserción en la Base de Datos: Solo se insertan registros únicos en la tabla de la base de datos especificada.
-    Manejo de Errores: El script maneja posibles errores de integridad y de base de datos durante la inserción de datos.
+Conexión a Oracle: El script se conecta a una base de datos Oracle utilizando cx_Oracle.
+Obtención de Datos: Se utilizan números consecutivos para buscar información de contribuyentes a través de la API externa.
+Inserción en la Base de Datos: Solo se insertan registros únicos en la tabla de la base de datos especificada.
+Manejo de Errores: El script maneja posibles errores de integridad y de base de datos durante la inserción de datos.
 
 Agradecimientos
 
