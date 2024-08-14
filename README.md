@@ -9,14 +9,6 @@ Requisitos
         tu_ruc_python_client (cliente API para obtener la información de los contribuyentes)
         datetime
 
-Instalación
-
-    Clonar este repositorio:
-
-    bash
-
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
 
 Instalar las dependencias necesarias:
 
