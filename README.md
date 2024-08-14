@@ -18,7 +18,7 @@ bash
 
 Configuración
 
-Antes de ejecutar el script, actualiza los valores de conexión a la base de datos en la sección config_db del archivo inforuc_test3.py:
+Antes de ejecutar el script, actualiza los valores de conexión a la base de datos en la sección config_db del archivo integracion_ruc.py:
 
 python
 
