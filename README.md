@@ -20,21 +20,22 @@ Configuración
 Antes de ejecutar el script, actualiza los valores de conexión a la base de datos en la sección config_db del archivo integracion_ruc.py:
 
 
-config_db = {
-    'user': 'usuario',           # Usuario de la base de datos
-    'password': 'contrasena',     # Contraseña del usuario
-    'dsn': 'base_de_datos',       # Nombre del Data Source Name
-    'host': 'host',               # Dirección del servidor Oracle
-    'port': 'puerto',             # Puerto del servicio Oracle
-    'service_name': 'servicio'    # Nombre del servicio de Oracle
-}
+    config_db = {
+        'user': 'usuario',           # Usuario de la base de datos
+        'password': 'contrasena',     # Contraseña del usuario
+        'dsn': 'base_de_datos',       # Nombre del Data Source Name
+        'host': 'host',               # Dirección del servidor Oracle
+        'port': 'puerto',             # Puerto del servicio Oracle
+        'service_name': 'servicio'    # Nombre del servicio de Oracle
+    }
+
 
 Uso
 
 Ejecuta el script para iniciar la extracción de información de contribuyentes y su inserción en la base de datos Oracle:
 
+    python inforuc_test3.py
 
-python inforuc_test3.py
 
 Funcionamiento
 
