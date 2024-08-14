@@ -34,7 +34,7 @@ Uso
 
 Ejecuta el script para iniciar la extracción de información de contribuyentes y su inserción en la base de datos Oracle:
 
-    python inforuc_test3.py
+    python3 integracion_ruc.py
 
 
 Funcionamiento
