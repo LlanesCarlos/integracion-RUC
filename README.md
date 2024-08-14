@@ -21,7 +21,7 @@ Antes de ejecutar el script, actualiza los valores de conexión a la base de dat
 
 
     config_db = {
-        'user': 'usuario',           # Usuario de la base de datos
+        'user': 'usuario',            # Usuario de la base de datos
         'password': 'contrasena',     # Contraseña del usuario
         'dsn': 'base_de_datos',       # Nombre del Data Source Name
         'host': 'host',               # Dirección del servidor Oracle
